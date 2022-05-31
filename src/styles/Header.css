@@ -1,0 +1,30 @@
+.Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 2px -3px gray;
+}
+
+.headerText {
+  display: flex;
+  gap: 20px;
+}
+
+.headerImage {
+  height: 100px;
+  width: auto;
+}
+
+.whereText, .waldoText {
+  font-size: 2rem;
+  font-weight: bold;
+  text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;
+}
+
+.whereText {
+  color: #03b2eb;
+}
+
+.waldoText {
+  color: #e54432;
+}

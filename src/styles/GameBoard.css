@@ -1,0 +1,131 @@
+body {
+  margin: 0px;
+}
+
+.dropDownMenu {
+  position: fixed;
+  background-color: rgb(255, 255, 255);
+  z-index: 1000;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 5px 10px 8px rgb(44, 44, 44);
+  cursor: pointer;
+}
+
+.hideMenu {
+  display: none;
+}
+
+.showMenu {
+  display: initial;
+}
+
+.dropDownSub {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  border-bottom: 1px solid rgb(197, 197, 197);
+}
+
+.dropDownSub:hover {
+  transform: scale(1.05);
+}
+
+.noBorder {
+  border: none;
+}
+
+.dropDownSub p {
+  margin: 0px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.characterIcons {
+  height: 35px;
+  width: auto;
+}
+
+.mapOne, .mapTwo, .mapThree {
+  background-size: contain;
+  background-position: center;
+  position: absolute;
+  top: 50px;
+  margin: 1px;
+}
+
+.mapOne {
+  height: 1861px;
+  width: 2000px;
+}
+
+.mapTwo {
+  height: 1828px;
+  width: 2828px;
+}
+
+.mapThree {
+  height: 1762px;
+  width: 2802px;
+}
+
+.subHeader {
+  top: 0px;
+  left: 0px;
+  position: fixed;
+  z-index: 1000;
+  display: flex;
+  width: 100vw;
+  background-color: white;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  box-shadow: 0 4px 2px -3px gray;
+}
+
+.upperSubHeader {
+  display: flex;
+  gap: 40px;
+  padding-left: 15px;
+}
+
+.containerSubHeader p{
+  margin: 0px;
+}
+
+.containerSubHeader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.hideCharacter {
+  opacity: 0.2;
+}
+
+.subHeaderLinks img {
+  height: 50px;
+  width: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.subHeaderLinks {
+  padding-right: 30px;
+}
+
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+

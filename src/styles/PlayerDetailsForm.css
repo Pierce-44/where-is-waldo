@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+body {
+  font-family: 'Work Sans', sans-serif;
+}
+
+.displayForm {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  display: initial;
+  background-color: rgba(0, 0, 0, 0.89);
+  height: 100%;
+  width: 100%;
+  z-index: 1000;
+}
+
+.hideForm {
+  display: none;
+}
+
+.formContainer {
+  position: fixed;
+
+  border-radius: 10px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+}
+
+.timeTitle {
+  margin: 0px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(204, 204, 204);
+  border-top: 1px solid white;
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+.submitText {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  padding-top: 0px;
+  padding-bottom: 20px;
+}
+
+.label input {
+  margin-top: 5px;
+  font-size: 1rem;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  color: rgb(224, 72, 72);
+}
+
+.submitButtons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.submitButtons input, button {
+  padding: 10px;
+  border: none;
+  background-color: rgb(224, 72, 72);
+  color: white;
+  border-radius: 5px;
+  font-size: 1rem;
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+ .submitButtons input:hover{
+  color: rgb(224, 72, 72);
+  background-color: rgb(255, 198, 198);
+  border: 2px solid rgb(224, 72, 72);
+}
+
+.submitButtons button:hover{
+  color: rgb(224, 72, 72);
+  background-color: rgb(255, 198, 198);
+  border: 2px solid rgb(224, 72, 72);
+}
+
+.closeTag {
+  position: absolute;
+  left: 90%;
+  cursor: pointer;
+}
+
+.formErrors {
+  color: red;
+  margin-top: 0px;
+}
+
+
+@media only screen and (max-width: 575px){
+  .submitButtons {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+}

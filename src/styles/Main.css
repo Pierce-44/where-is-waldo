@@ -1,0 +1,106 @@
+.Main {
+  /* display: flex;
+  justify-content: center; */
+  padding-top: 20px;
+}
+
+.mainContainer {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  max-width: 1500px;
+}
+
+.mainLoadingContainer {
+  height: 200px;
+  width: 300px;
+}
+
+.mainLoadingImage {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.link {
+  text-align: center;
+
+}
+
+.easyMap {
+  color: green;
+}
+
+.mediumMap {
+  color: orange;
+}
+
+.hardMap {
+  color: red;
+}
+
+.linkContainer {
+  text-decoration: none;
+}
+
+.linkContainer p {
+  font-size: 1.3rem;
+  text-shadow: 0 0 2px black
+
+}
+
+.footerText {
+  font-size: 1.7rem;
+  font-weight: bolder;
+  padding: 10px;
+  border: 2px solid white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.footerText:hover {
+  border: 2px solid #03b2eb;
+  background-color: #e5443225;
+}
+
+.footerTextBlue {
+  color: #03b2eb;
+}
+
+.footerTextRed {
+  color: #e54432;
+}
+
+.footerTextRed, .footerTextBlue {
+  text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;
+}
+
+.footerImg {
+  border: 2px solid white;
+  height: 75px;
+  width: auto;
+}
+
+.footerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 125px;
+  margin-bottom: 50px;
+}
+
+.linkMain {
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 950px){
+  .mainContainer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+  }
+}

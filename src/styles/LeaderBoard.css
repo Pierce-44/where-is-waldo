@@ -1,0 +1,140 @@
+.leaderBoardHeader {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.leaderBoardPageContainer {
+  padding: 30px;
+}
+
+.leaderBoardButton:hover {
+  background-color: white;
+  border: 2px solid rgb(224, 72, 72);
+  color: rgb(224, 72, 72);
+}
+
+.buttonContainerLB {
+  display: flex;
+  gap: 20px;
+}
+
+.imageMapOne {
+  height: 200px;
+  width: 300px;
+  background-image: url('../images/selectionOne.jpg');
+}
+
+.imageMapTwo {
+  height: 200px;
+  width: 300px;
+  background-image: url('../images/selectionTwo.jpg');
+}
+
+.imageMapThree {
+  height: 200px;
+  width: 300px;
+  background-image: url('../images/selectionThree.jpeg');
+}
+
+
+.subTextLB {
+  text-shadow: 0 0 2px black;
+  padding-left: 15px;
+}
+
+.upperContainerImagesLB {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-top: 50px;
+}
+
+.highlight {
+  background-color: rgba(224, 72, 72, 0.192);
+}
+
+.noHighlight {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.subContainerImagesLB {
+  border-radius: 20px;
+  box-shadow: 0 4px 2px -3px gray;
+  cursor: pointer;
+}
+
+.leaderBoardTable {
+  display: flex;
+  justify-content: space-between;
+  /* padding: 30px; */
+  width: calc(100% - 60px);
+  max-width: 2000px;  
+  margin: 30px;
+  border: 2px solid rgb(189, 189, 189);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.nameColumn {
+  width: 75%;
+}
+
+.timeColumn {
+  width: 25%;
+}
+
+.tableHeader {
+  padding-left: 20px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-bottom: 2px solid rgb(114, 114, 114);
+  padding-bottom: 20px; 
+  padding-top: 20px;
+  margin: 0px;
+  background-color: rgba(107, 114, 128, 0.253);
+  white-space: nowrap;
+}
+
+.columnText {
+  padding-left: 20px;
+  border-bottom: 1px solid rgb(180, 180, 180);
+  padding-bottom: 20px;
+  padding-top: 20px;
+  margin: 0px;
+}
+
+.showLB {
+  display: flex;
+}
+
+.hideLB {
+  display: none;
+}
+
+@media only screen and (max-width: 1100px){
+  .upperContainerImagesLB {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+}
+
+@media only screen and (max-width: 750px){
+  .nameColumn {
+    width: 50%;
+  }
+  
+  .timeColumn {
+    width: 50%;
+  }
+
+  .tableHeader {
+    font-size: 1rem;
+  }
+  .columnText{
+    font-size: 0.8rem;
+  }
+}
