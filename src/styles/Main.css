@@ -9,6 +9,8 @@
   justify-content: space-evenly;
   width: 100%;
   max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .mainLoadingContainer {
@@ -19,9 +21,9 @@
 .mainLoadingImage {
   height: 100%;
   width: 100%;
-  background-size: cover;
+  /* background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
 }
 
 .link {
@@ -94,6 +96,14 @@
 
 .linkMain {
   text-decoration: none;
+}
+
+.showLoader, .showLinkContent {
+  display: initial;
+}
+
+.hideLoader, .hideLinkContent{
+  display: none !important;
 }
 
 @media only screen and (max-width: 950px){
