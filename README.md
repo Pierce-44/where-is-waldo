@@ -3,7 +3,7 @@
 </div>
 
 # Where's Waldo
-A Where's Waldo app that operates like a photo tagging app, which was developed using React, Javascript, CSS, HTML, and FireBase (Realtime Database and hosting). This app was designed, developed and conducted to be submitted as my assignment for <img src="https://www.theodinproject.com/assets/icons/odin-icon-b5b31c073f7417a257003166c98cc23743654715305910c068b93a3bf4d3065d.svg"  width="20" height="20"> [The Odin Project Fullstack JavaScript Where's Waldo (A Photo Tagging App)](https://www.theodinproject.com/lessons/node-path-javascript-where-s-waldo-a-photo-tagging-app).
+A Where's Waldo app that operates like a photo tagging app, which was developed using React, Javascript, CSS, HTML, and FireBase (Cloud Firestore and hosting). This app was designed, developed and conducted to be submitted as my assignment for <img src="https://www.theodinproject.com/assets/icons/odin-icon-b5b31c073f7417a257003166c98cc23743654715305910c068b93a3bf4d3065d.svg"  width="20" height="20"> [The Odin Project Fullstack JavaScript Where's Waldo (A Photo Tagging App)](https://www.theodinproject.com/lessons/node-path-javascript-where-s-waldo-a-photo-tagging-app).
 
 ![whereIsWaldoGIF](https://user-images.githubusercontent.com/96740762/180012705-5a5adf5f-aba8-492b-a5e9-1ac98ca0c11b.gif)
 
@@ -20,9 +20,9 @@ A Where's Waldo app that operates like a photo tagging app, which was developed 
 <br/>
 
 ## Features:
-- Selecting a point on the map takes the selected coordinates and checks it against the characters coordinates stored in the FireBase Realtime Database associated to that map.
+- Selecting a point on the map takes the selected coordinates and checks it against the characters coordinates stored in the FireBase Cloud Firestore database associated to that map.
 - on successfully finding all characters players can submit their time score to a global leaderboard and therefore see how they rank against others.
-- Implementation of FireBase Realtime Database to record player scores on a global leaderboard, as well as record anonymously submitted guest scores.
+- Implementation of FireBase Cloud Firestore database to record player scores on a global leaderboard, as well as record anonymously submitted guest scores.
 - Implementation of FireBase Hosting.
 <br/>
 
